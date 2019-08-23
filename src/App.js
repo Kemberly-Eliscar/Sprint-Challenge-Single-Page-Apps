@@ -10,6 +10,7 @@ export default function App() {
     <main>
       <Header />
       {/* <TabNav /> */}
+      <Route path='/' component={TabNav} />
       <Route path="/" component={EpisodeList} />
     </main>
   );
