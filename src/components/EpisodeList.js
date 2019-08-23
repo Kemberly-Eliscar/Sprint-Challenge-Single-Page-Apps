@@ -11,7 +11,7 @@ useEffect(() => {
     .get("https://rickandmortyapi.com/api/episode")
     .then(data =>{
         const episodes = data.data.results
-        setEpisodesList(episodes)
+        setEpisodeList(episodes)
     })
     .catch( error => {
         console.log('error :', error)
