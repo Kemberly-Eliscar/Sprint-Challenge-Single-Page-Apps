@@ -2,6 +2,7 @@ import React from "react";
 import { Route } from 'react-router-dom';
 import TabNav from "./components/TabNav.js";
 import Header from "./components/Header.js";
+import EpisodeList from './components/EpisodeList.js';
 
 
 export default function App() {
@@ -9,6 +10,7 @@ export default function App() {
     <main>
       <Header />
       {/* <TabNav /> */}
+      <Route path="/" component={}
     </main>
   );
 }
