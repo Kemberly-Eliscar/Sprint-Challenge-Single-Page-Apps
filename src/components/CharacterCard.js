@@ -23,6 +23,7 @@ export default function CharacterCard(props) {
             <p>Species : {species}</p>
             <p>Status : {status}</p>
             <p>Origin : {origin.name}</p>
+            <p>id: {id}</p>
           </Card.Description>
         </Card.Content>
       </Card>
